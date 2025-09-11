@@ -1,11 +1,103 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<main class="min-h-dvh bg-background text-foreground">
+		<section class="relative overflow-hidden">
+			<div class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent"></div>
+			<div class="container mx-auto px-4 py-20 md:py-28">
+				<div class="grid items-center gap-10 md:grid-cols-2">
+					<div class="space-y-6">
+						<h1 class="text-4xl font-bold tracking-tight md:text-6xl">EUREKA CAFE INTERNET</h1>
+						<p class="text-lg text-muted-foreground max-w-prose">
+							Tu punto de soluciones tecnológicas en Duitama, Boyacá. Servicios de cómputo,
+							asesorías de trámites digitales, clases de informática, impresión y fotocopiado,
+							diseño gráfico, desarrollo web y consultoría TI. Estamos en CR 15 #13-35.
+						</p>
+						<div class="flex flex-wrap gap-3">
+							<a href="#servicios" class="inline-flex items-center rounded-md bg-primary px-5 py-3 text-primary-foreground shadow hover:opacity-90 transition">Ver servicios</a>
+							<a href="#contacto" class="inline-flex items-center rounded-md border px-5 py-3 hover:bg-accent hover:text-accent-foreground transition">Contáctanos</a>
+						</div>
+					</div>
+					<div class="relative">
+						<img src="/imagen_eureka.jpeg" alt="EUREKA CAFE INTERNET" class="aspect-video w-full rounded-xl border object-cover" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="servicios" class="container mx-auto px-4 py-16 md:py-24">
+			<h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Servicios</h2>
+			<p class="mt-2 text-muted-foreground max-w-prose">Soluciones claras, rápidas y confiables para tu día a día y tu negocio.</p>
+			<div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+				<div class="rounded-xl border p-6 bg-card">
+					<h3 class="font-semibold">Centro de Cómputo</h3>
+					<p class="mt-2 text-sm text-muted-foreground">Acceso a computadores, internet de alta velocidad, ofimática y acompañamiento.</p>
+				</div>
+				<div class="rounded-xl border p-6 bg-card">
+					<h3 class="font-semibold">Trámites Digitales</h3>
+					<p class="mt-2 text-sm text-muted-foreground">Asesoría y diligenciamiento de trámites en línea con entidades públicas y privadas.</p>
+				</div>
+				<div class="rounded-xl border p-6 bg-card">
+					<h3 class="font-semibold">Clases de Informática</h3>
+					<p class="mt-2 text-sm text-muted-foreground">Formación básica para personas sin experiencia y cursos prácticos a tu medida.</p>
+				</div>
+				<div class="rounded-xl border p-6 bg-card">
+					<h3 class="font-semibold">Impresión y Fotocopiado</h3>
+					<p class="mt-2 text-sm text-muted-foreground">Impresión a color y blanco/negro, escaneo, anillado y preparación de documentos.</p>
+				</div>
+				<div class="rounded-xl border p-6 bg-card">
+					<h3 class="font-semibold">Diseño Gráfico</h3>
+					<p class="mt-2 text-sm text-muted-foreground">Identidad visual, piezas para redes y material publicitario listo para imprimir.</p>
+				</div>
+				<div class="rounded-xl border p-6 bg-card">
+					<h3 class="font-semibold">Desarrollo Web</h3>
+					<p class="mt-2 text-sm text-muted-foreground">Sitios y landing pages modernas con soporte continuo y alojamiento recomendado.</p>
+				</div>
+				<div class="rounded-xl border p-6 bg-card sm:col-span-2 lg:col-span-3">
+					<h3 class="font-semibold">Consultoría TI y Administración de Instalaciones</h3>
+					<p class="mt-2 text-sm text-muted-foreground">Diagnóstico, optimización y soporte de infraestructura; inventarios, backups, seguridad y continuidad operativa.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="nosotros" class="border-t bg-muted/20">
+			<div class="container mx-auto px-4 py-16 md:py-24 grid gap-8 md:grid-cols-2 items-center">
+				<div>
+					<h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Sobre nosotros</h2>
+					<p class="mt-4 text-muted-foreground max-w-prose">
+						Nacimos para acercar la tecnología a todas las personas. Combinamos atención cercana
+						y conocimientos técnicos para resolver desde tareas cotidianas hasta proyectos
+						profesionales. Creemos en la paciencia, la claridad y en entregar resultados.
+					</p>
+				</div>
+				<ul class="grid gap-4">
+					<li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-primary"></span><span>Ubicación: CR 15 #13-35, Duitama, Boyacá</span></li>
+					<li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-primary"></span><span>Horario: Lun–Sáb 8:00–19:00</span></li>
+					<li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-primary"></span><span>Atención personalizada y por turnos</span></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="contacto" class="container mx-auto px-4 py-16 md:py-24">
+			<h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Contacto</h2>
+			<p class="mt-2 text-muted-foreground max-w-prose">Escríbenos o visítanos. Responderemos con gusto.</p>
+			<div class="mt-8 grid gap-6 md:grid-cols-3">
+				<div class="rounded-xl border p-6 bg-card">
+					<p class="text-sm text-muted-foreground">Dirección</p>
+					<p class="font-medium">CR 15 #13-35, Duitama</p>
+				</div>
+				<div class="rounded-xl border p-6 bg-card">
+					<p class="text-sm text-muted-foreground">WhatsApp</p>
+					<a class="font-medium text-primary underline underline-offset-4" href="https://wa.me/573122778214" target="_blank" rel="noreferrer">+57 312 277 8214</a>
+				</div>
+				<div class="rounded-xl border p-6 bg-card">
+					<p class="text-sm text-muted-foreground">Correo</p>
+					<a class="font-medium text-primary underline underline-offset-4" href="mailto:eurekainternet4@gmail.com">eurekainternet4@gmail.com</a>
+				</div>
+			</div>
+			<div class="mt-10 text-center text-xs text-muted-foreground">© {new Date().getFullYear()} EUREKA CAFE INTERNET · Todos los derechos reservados</div>
+		</section>
+	</main>
 </Layout>
