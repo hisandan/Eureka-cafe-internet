@@ -3,7 +3,7 @@ import '../styles/global.css';
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -28,6 +28,15 @@ import '../styles/global.css';
 		<meta name="twitter:image" content="/imagen_eureka.jpeg" />
 	</head>
 	<body>
+		<header class="sticky top-0 z-50 border-b bg-background/80 backdrop-blur">
+			<div class="container mx-auto px-4 h-14 flex items-center justify-between">
+				<a href="/" class="font-semibold">EUREKA CAFE INTERNET</a>
+				<nav class="flex items-center gap-6 text-sm">
+					<a href="#servicios" class="hover:text-primary cursor-pointer">Servicios</a>
+					<a href="#contacto" class="hover:text-primary cursor-pointer">Contacto</a>
+				</nav>
+			</div>
+		</header>
 		<slot />
 	</body>
 </html>

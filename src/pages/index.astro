@@ -5,9 +5,9 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
 	<main class="min-h-dvh bg-background text-foreground">
 		<section class="relative overflow-hidden">
-			<div class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent"></div>
+			<div class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none"></div>
 			<div class="container mx-auto px-4 py-20 md:py-28">
-				<div class="grid items-center gap-10 md:grid-cols-2">
+				<div class="relative z-10 grid items-center gap-10 md:grid-cols-2">
 					<div class="space-y-6">
 						<h1 class="text-4xl font-bold tracking-tight md:text-6xl">EUREKA CAFE INTERNET</h1>
 						<p class="text-lg text-muted-foreground max-w-prose">
@@ -16,8 +16,8 @@ import Layout from '../layouts/Layout.astro';
 							diseño gráfico, desarrollo web y consultoría TI. Estamos en CR 15 #13-35.
 						</p>
 						<div class="flex flex-wrap gap-3">
-							<a href="#servicios" class="inline-flex items-center rounded-md bg-primary px-5 py-3 text-primary-foreground shadow hover:opacity-90 transition">Ver servicios</a>
-							<a href="#contacto" class="inline-flex items-center rounded-md border px-5 py-3 hover:bg-accent hover:text-accent-foreground transition">Contáctanos</a>
+							<a href="#servicios" class="inline-flex items-center rounded-md bg-primary px-5 py-3 text-primary-foreground shadow hover:opacity-90 transition cursor-pointer" role="button">Ver servicios</a>
+							<a href="#contacto" class="inline-flex items-center rounded-md border px-5 py-3 hover:bg-accent hover:text-accent-foreground transition cursor-pointer" role="button">Contáctanos</a>
 						</div>
 					</div>
 					<div class="relative">
@@ -27,7 +27,7 @@ import Layout from '../layouts/Layout.astro';
 			</div>
 		</section>
 
-		<section id="servicios" class="container mx-auto px-4 py-16 md:py-24">
+		<section id="servicios" class="scroll-mt-20 container mx-auto px-4 py-16 md:py-24">
 			<h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Servicios</h2>
 			<p class="mt-2 text-muted-foreground max-w-prose">Soluciones claras, rápidas y confiables para tu día a día y tu negocio.</p>
 			<div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -62,7 +62,7 @@ import Layout from '../layouts/Layout.astro';
 			</div>
 		</section>
 
-		<section id="nosotros" class="border-t bg-muted/20">
+		<section id="nosotros" class="scroll-mt-20 border-t bg-muted/20">
 			<div class="container mx-auto px-4 py-16 md:py-24 grid gap-8 md:grid-cols-2 items-center">
 				<div>
 					<h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Sobre nosotros</h2>
@@ -80,7 +80,7 @@ import Layout from '../layouts/Layout.astro';
 			</div>
 		</section>
 
-		<section id="contacto" class="container mx-auto px-4 py-16 md:py-24">
+		<section id="contacto" class="scroll-mt-20 container mx-auto px-4 py-16 md:py-24">
 			<h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Contacto</h2>
 			<p class="mt-2 text-muted-foreground max-w-prose">Escríbenos o visítanos. Responderemos con gusto.</p>
 			<div class="mt-8 grid gap-6 md:grid-cols-3">
