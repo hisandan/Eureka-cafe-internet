@@ -17,6 +17,7 @@ import Layout from '../layouts/Layout.astro';
 						</p>
 						<div class="flex flex-wrap gap-3">
 							<a href="#servicios" class="inline-flex items-center rounded-md bg-primary px-5 py-3 text-primary-foreground shadow hover:opacity-90 transition cursor-pointer" role="button">Ver servicios</a>
+							<a href="#proyectos" class="inline-flex items-center rounded-md border px-5 py-3 hover:bg-accent hover:text-accent-foreground transition cursor-pointer" role="button">Ver proyectos</a>
 							<a href="#contacto" class="inline-flex items-center rounded-md border px-5 py-3 hover:bg-accent hover:text-accent-foreground transition cursor-pointer" role="button">Contáctanos</a>
 						</div>
 					</div>
@@ -77,6 +78,34 @@ import Layout from '../layouts/Layout.astro';
 					<li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-primary"></span><span>Horario: Lun–Sáb 8:00–19:00</span></li>
 					<li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-primary"></span><span>Atención personalizada y por turnos</span></li>
 				</ul>
+			</div>
+		</section>
+
+		<section id="proyectos" class="scroll-mt-20 container mx-auto px-4 py-16 md:py-24">
+			<h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Proyectos de Desarrollo</h2>
+			<p class="mt-2 text-muted-foreground max-w-prose">Soluciones tecnológicas innovadoras desarrolladas para facilitar el día a día de nuestros clientes.</p>
+			<div class="mt-10">
+				<div class="rounded-xl border p-6 bg-card">
+					<div class="flex flex-col md:flex-row gap-6 items-start">
+						<div class="flex-shrink-0 ">
+							<img src="/fitofiable.webp" alt="Fito Fiable - Chatbot de Control de Gastos" class="w-32 h-32 rounded-lg object-cover border-none" />
+						</div>
+						<div class="flex-1">
+							<h3 class="text-xl font-semibold mb-3">Fito Fiable</h3>
+							<p class="text-muted-foreground mb-4">
+								Chatbot inteligente para WhatsApp que simplifica el control de gastos personales. 
+								Permite registrar, categorizar y analizar todos los gastos de forma conversacional y 
+								intuitiva, facilitando la gestión financiera personal sin complicaciones.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span class="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">WhatsApp Bot</span>
+								<span class="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">Control de Gastos</span>
+								<span class="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">IA Conversacional</span>
+							</div>
+						</div>
+						
+					</div>
+				</div>
 			</div>
 		</section>
 
