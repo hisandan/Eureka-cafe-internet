@@ -1,39 +1,38 @@
-DESCRIPCIÓN PARA FACEBOOK BUSINESS - EMI EMUNA / EMUNA
-=======================================================
+DESCRIPCIÓN PARA FACEBOOK BUSINESS - EMI EMUNA
+================================================
 
-Nombre del Negocio: Emi Emuna / EMUNA
+Nombre del Negocio: Emi Emuna - Eureka Café Internet
 Tagline: "Confianza que abre puertas"
-Desarrollado por: Eureka Café Internet
+Servicio de: Eureka Café Internet
 
 Descripción Corta (para perfil):
 ---------------------------------
-Asistente virtual inteligente de EMUNA disponible en WhatsApp. Confianza que abre puertas. Desarrollado por Eureka Café Internet para brindar soporte, información y asistencia personalizada.
+Asistente virtual de Eureka Café Internet disponible en WhatsApp. Confianza que abre puertas hacia soluciones tecnológicas accesibles.
 
 Descripción Completa (para verificación):
 ------------------------------------------
-Emi Emuna es un asistente virtual inteligente de la marca EMUNA, desarrollado por Eureka Café Internet para WhatsApp. Bajo el concepto "Confianza que abre puertas", proporciona servicios de atención al cliente, soporte técnico e información personalizada mediante tecnología de inteligencia artificial conversacional. 
+Emi Emuna es el asistente virtual inteligente de Eureka Café Internet, disponible en WhatsApp. Este servicio forma parte integral de los servicios tecnológicos que Eureka Café Internet ofrece a la comunidad de Duitama, Boyacá.
 
-El asistente está diseñado para facilitar la comunicación eficiente entre empresas y usuarios, ofreciendo respuestas rápidas a consultas comunes, asistencia en tiempo real y atención disponible las 24 horas del día, los 7 días de la semana.
+Bajo el concepto "Confianza que abre puertas", Emi Emuna está diseñado para acercar la tecnología a todas las personas, brindando información sobre los servicios de Eureka Café Internet (centro de cómputo, trámites digitales, clases de informática, impresión, diseño gráfico, desarrollo web y consultoría TI), asistencia en trámites digitales y soporte personalizado mediante conversaciones naturales.
 
-Emi Emuna utiliza procesamiento de lenguaje natural para comprender y responder a las necesidades de los usuarios de manera contextual y personalizada, mejorando la experiencia del cliente y optimizando los procesos de atención. Como parte de EMUNA, representa una solución que genera confianza y abre nuevas posibilidades de interacción para negocios.
+El asistente utiliza tecnología de inteligencia artificial conversacional para proporcionar atención disponible las 24 horas del día, los 7 días de la semana, facilitando el acceso a servicios tecnológicos y representando la filosofía de Eureka Café Internet de generar confianza y abrir puertas hacia soluciones tecnológicas accesibles.
 
 Relación con Eureka Café Internet:
-- Desarrollado y operado por Eureka Café Internet
-- Marca: EMUNA
-- Servicio: Asistente virtual para WhatsApp
-- Ubicación: CR 15 #13-35, Duitama, Boyacá
+- Emi Emuna es un servicio de Eureka Café Internet
+- No es un negocio separado, sino parte de los servicios tecnológicos de Eureka
+- Es el nombre del asistente virtual de Eureka Café Internet
+- Ubicación del negocio: CR 15 #13-35, Duitama, Boyacá
+- Horario de atención física: Lun–Sáb 8:00–19:00
+- El asistente complementa los servicios presenciales con atención virtual 24/7
 
-Categoría de Negocio: Asistente Virtual / Chatbot / Servicios de IA Conversacional
+Categoría de Negocio: Servicio de Atención al Cliente / Asistente Virtual de Eureka Café Internet
 
 Palabras Clave:
-- EMUNA
+- Eureka Café Internet
 - Emi Emuna
 - Asistente virtual WhatsApp
-- Chatbot inteligente
-- Atención al cliente automatizada
-- IA conversacional
-- Soporte virtual 24/7
-- Servicios de mensajería automatizada
-- Eureka Café Internet
+- Servicio de atención al cliente
+- Soporte tecnológico Duitama
+- Trámites digitales
 - Confianza que abre puertas
 
